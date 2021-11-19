@@ -1,0 +1,7 @@
+service Noop {
+  rpc Noop(NoopRequest) returns (NoopResponse){}
+}
+
+message NoopRequest {}
+
+message NoopResponse {}
